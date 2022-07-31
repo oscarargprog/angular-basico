@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 
 import { HeroesModule } from './heroes/heroes.module';
 import { ContadorModule } from './contador/contador.module';
+import { DbzModule } from './dbz/dbz.module';
+
 
 
 
@@ -13,12 +15,14 @@ import { ContadorModule } from './contador/contador.module';
   declarations: [
     AppComponent,
     
+    
   ],
 
   imports: [
     BrowserModule,
     HeroesModule,
     ContadorModule,
+    DbzModule,
   ],
   
   providers: [],
